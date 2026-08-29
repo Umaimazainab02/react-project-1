@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div>Card</div>
+    <div className="card">
+  <img src={props.img}/>
+      <h1>{props.user}<br />{props.age}</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+       <button>View Profile</button>
+    </div>
   )
 }
 

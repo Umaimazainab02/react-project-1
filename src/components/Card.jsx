@@ -2,6 +2,7 @@ import React from 'react'
 
 const Card = (props) => {
   return (
+    
     <div className="card">
   <img src={props.img}/>
       <h1>{props.user}<br />{props.age}</h1>

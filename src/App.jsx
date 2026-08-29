@@ -2,7 +2,13 @@ import Card from './components/Card'
 
 const App = () => {
   return (
-    <div className='parent'>
+     <>
+      <div className='parent2'>
+        <h1>Profiles</h1>
+      </div>
+
+
+          <div className='parent'>
       <Card user="Umaima Zainab" img="https://plus.unsplash.com/premium_photo-1756099779811-baa284e1b864?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4OHx8fGVufDB8fHx8fA%3D%3D" />
       <Card user=" Zainab Fatima" img="https://images.unsplash.com/photo-1552053831-71594a27632d" />
       <Card user="  Aizal Khan" img="https://images.unsplash.com/photo-1679531751641-79f78cbb5c0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRpYW1vbmR8ZW58MHx8MHx8fDA%3D" />
@@ -14,6 +20,8 @@ const App = () => {
       <Card user=" Dua Ali" img="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGh1bWFufGVufDB8fDB8fHww" />
 
     </div>
+     </>
+
   )
 }
 

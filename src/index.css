@@ -63,3 +63,10 @@ body {
   background-color: #e57baa;
   transform: scale(1.05);
 }
+.parent2{
+  font-size:30px;
+  color:#d13d7d;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}

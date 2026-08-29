@@ -9,7 +9,7 @@ body {
   background-color: #333;
   border-radius: 15px;
   padding: 20px;
-  margin: 20px 10px 10px 7px;
+  margin: 30px 10px 10px 7px;
   text-align: center;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
   transition: 0.3s ease;
@@ -29,15 +29,15 @@ body {
 }
 
 .card img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .card h1 {
   font-size: 25px;
-  margin: 15px 0 10px;
+  margin: 20px 0 10px;
   color: #d13d7d;
 }
 
